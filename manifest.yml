@@ -1,0 +1,13 @@
+---
+applications:
+  - name: ear-with-boot
+    path: eartest-ear/target/eartest-ear.ear
+#    path: war-with-boot/target/war-with-boot-1.0.war
+    memory: 1G
+
+buildpack: https://github.com/cloudfoundry-community/tomee-buildpack
+#buildpack: https://github.com/bijukunjummen/tomee-buildpack#GH-16
+
+#env:
+#  JBP_CONFIG_TOMEE: '{ tomee: { version: 1.7.+ } }'
+#  JBP_LOG_LEVEL: DEBUG
