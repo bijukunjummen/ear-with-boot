@@ -8,6 +8,7 @@ applications:
 buildpack: https://github.com/cloudfoundry-community/tomee-buildpack
 #buildpack: https://github.com/bijukunjummen/tomee-buildpack#GH-16
 
-#env:
+env:
+  JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{ enabled: false }'
 #  JBP_CONFIG_TOMEE: '{ tomee: { version: 1.7.+ } }'
 #  JBP_LOG_LEVEL: DEBUG

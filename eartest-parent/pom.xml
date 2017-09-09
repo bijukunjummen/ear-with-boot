@@ -21,7 +21,10 @@
             <plugins>
                 <plugin>
                     <artifactId>maven-ear-plugin</artifactId>
-                    <version>2.10</version>
+                    <version>2.10.1</version>
+                    <configuration>
+                        <version>7</version>
+                    </configuration>
                     <!--<configuration>-->
                         <!--<skinnyWars>true</skinnyWars> &lt;!&ndash; IntelliJ ignores this. https://youtrack.jetbrains.com/issue/IDEA-97324 &ndash;&gt;-->
                         <!--<defaultLibBundleDir>lib</defaultLibBundleDir>-->
